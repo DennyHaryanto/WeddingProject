@@ -304,15 +304,6 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-// #fh5co-header,
-// #fh5co-counter,
-// #fh5co-event,
-// .fh5co-bg {
-// 	background-size: cover;
-// 	background-position: top center;
-// 	background-repeat: no-repeat;
-// 	position: relative;
-// }
 #fh5co-counter,
 #fh5co-event,
 .fh5co-bg {
@@ -385,7 +376,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover {
 	height: 900px;
 	background-size: cover;
-	// background-position: center center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
 	width: 100%;
@@ -1010,7 +1001,7 @@ form {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-	padding: 7em 0;
+	padding: 7em 0 !important;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;

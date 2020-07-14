@@ -78,8 +78,8 @@
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="<?php echo base_url('Home');?>">Home</a></li>
-						<li><a href="<?php echo base_url('Story');?>">Story</a></li>
+						<li><a href="<?php echo base_url('Home');?>">Home</a></li>
+						<li class="active"><a href="<?php echo base_url('Story');?>">Story</a></li>
 					</ul>
 				</div>
 			</div>
@@ -178,7 +178,7 @@
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline animate-box">
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/firstmeet.jpg')?>);"></div>
+							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/couple-1.jpg')?>);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First We Meet</h3>
@@ -190,7 +190,7 @@
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/firstdate.jpg')?>);"></div>
+							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/couple-2.jpg')?>);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First Date</h3>
@@ -202,7 +202,7 @@
 							</div>
 						</li>
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/inadate.jpg')?>);"></div>
+							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/couple-3.jpg')?>);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">In A Relationship</h3>

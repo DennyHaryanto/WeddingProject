@@ -6,12 +6,4 @@
             return ($class == $controller) ? 'active' : '';
         }
     }
-
-    function show_err_msg($content='') {
-		if ($content != '') {
-			return   '<div class="box-body pad res-tb-block">
-              <img src="assets/images/alert/alert.png" alt="alert" class="model_img img-fluid" id="sa-basic">              
-            </div>';
-		}
-	}
 ?>
