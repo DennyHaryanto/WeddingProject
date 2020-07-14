@@ -1390,6 +1390,20 @@ form {
 			display: block;
 		}
 	}
+	.mask {
+		display: none;
+		background-color: #F3F5F6; /* match the background color of the page */
+		position: absolute;
+		width: 34px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 10
+	}
+	.player {
+		position: relative;
+		width: 300px;
+	}
 }
 
 // Owl 

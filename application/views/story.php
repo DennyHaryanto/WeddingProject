@@ -107,7 +107,7 @@
 		</div>
 	</header>
 
-	<div id="fh5co-couple">
+	<div id="fh5co-couple" style="padding-top: 2em;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -140,36 +140,10 @@
 		</div>
 	</div>
 
-	<div id="fh5co-gallery" class="fh5co-section-gray" style="padding-top: 2em;">
+	<div id="fh5co-couple-story" style="padding-top: 2em; background: rgba(0, 0, 0, 0.04)">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Wedding Notes</h2>
-					<p>Seluruh keluarga dan kerabat<p>
-					<p>Puji syukur atas berkah yang diberikan Tuhan Yang Maha Esa.</p>
-					<p>Pada tanggal 31 Juli 2020, kami akan melangsungkan pernikahan di Banyuwangi tempat calon mempelai wanita.</p>
-					<p>Dikarenakan kondisi pada saat pandemi saat ini, tidak memungkinkan untuk kami mengadakan acara berkumpul bersama,</p>
-					<p>sehingga izinkan kami memohon doa restu pada seluruh keluarga dan kerabat agar pernikahan kami menjadi keluarga yang sakinah.</p>
-					<p>Semoga keluarga dan kerabat selalu sehat dan mendapat perlindungan Allah swt.</p>
-					<p>Terima kasih atas doa yang diberikan.</p>
-					<p>Keluarga:</p>
-					<p>Alm Alfian dan Juharsiah</p>
-					<p>Alm H. Sutadji S.H dan Hj. Wiwin Andayani</p>
-					<p>Denny Haryanto S. KOM dan Mega Maya S.KM</p>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">		
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
 					<h2>Our Story</h2>
 					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 				</div>
@@ -178,7 +152,7 @@
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline animate-box">
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/couple-1.jpg')?>);"></div>
+							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/firstmeet.jpg')?>);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First We Meet</h3>
@@ -190,7 +164,7 @@
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/couple-2.jpg')?>);"></div>
+							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/firstdate.jpg')?>);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First Date</h3>
@@ -202,7 +176,7 @@
 							</div>
 						</li>
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/couple-3.jpg')?>);"></div>
+							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/inadate.jpg')?>);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">In A Relationship</h3>
@@ -219,13 +193,12 @@
 		</div>
 	</div>
 
-
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(<?php echo base_url('assets/images/img_bg_4.jpg')?>);">
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(<?php echo base_url('assets/images/img_bg_4.jpg')?>);" style="padding-top: 2em;">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
+					<h2>Wanna Send ur Best Prays For Us?</h2>
 					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
 				</div>
 			</div>
@@ -241,11 +214,11 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
+								<input type="name" class="form-control" id="email" placeholder="Email">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+							<button type="submit" class="btn btn-default btn-block">Submit</button>
 						</div>
 					</form>
 				</div>
@@ -253,26 +226,20 @@
 		</div>
 	</div>
 
-	<footer id="fh5co-footer" role="contentinfo">
+	<footer id="fh5co-footer" role="contentinfo" style="padding-top: 2em;">
 		<div class="container">
-
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
 						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
 					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul>
-					</p>
+					<div class="player">
+						<audio src="<?php echo base_url('assets/audio/audio.mpeg')?>" autoplay loop controls></audio>
+						<div class="mask"></div>
+					</div>
 				</div>
 			</div>
-
 		</div>
 	</footer>
 	</div>
@@ -322,6 +289,12 @@
         day: 31,
         enableUtc: false
     });
+	document.addEventListener("DOMContentLoaded", function(event) {
+		var match = navigator.userAgent.match(/Chrome\/(\d+)/);
+		if (match && parseInt(match[1]) >= 55) {
+			document.getElementById('mask');
+		}
+	});
 </script>
 
 	</body>

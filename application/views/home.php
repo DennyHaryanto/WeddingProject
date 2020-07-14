@@ -107,40 +107,7 @@
 		</div>
 	</header>
 
-	<div id="fh5co-couple">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<h3>July 31th, 2020 Banyuwangi, Indonesia</h3>
-					<p>We honorably inform you about our wedding</p>
-				</div>
-			</div>
-			<div class="couple-wrap animate-box">
-				<div class="couple-half">
-					<div class="groom">
-						<img src="<?php echo base_url('assets/images/denny.jpeg')?>" alt="groom" class="img-responsive">
-					</div>
-					<div class="desc-groom">
-						<h3>Denny Haryanto</h3>
-						<p>Anaknya Alm Alfian dan Juharsiah</p>
-					</div>
-				</div>
-				<p class="heart text-center"><i class="icon-heart2"></i></p>
-				<div class="couple-half">
-					<div class="bride">
-						<img src="<?php echo base_url('assets/images/megaphoto.jpg')?>" alt="groom" class="img-responsive">
-					</div>
-					<div class="desc-bride">
-						<h3>Mega Maya</h3>
-						<p>Anaknya Alm H. Sutadji S.H dan Hj. Wiwin Andayani</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-gallery" class="fh5co-section-gray" style="padding-top: 2em;">
+	<div id="fh5co-gallery" class="fh5co-section-gray" style="padding: 2em 0;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -165,112 +132,18 @@
 		</div>
 	</div>
 
-	<div id="fh5co-couple-story">
+	<div id="fh5co-couple" style="padding-top: 2em 0;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/firstmeet.jpg')?>);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/firstdate.jpg')?>);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/inadate.jpg')?>);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
+					<h2><a href="<?php echo base_url('Story');?>">Wanna See Our Stories?</a></h2>
+					<div class="player">
+						<audio src="<?php echo base_url('assets/audio/audio.mpeg')?>" autoplay loop controls></audio>
+						<div class="mask"></div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
-
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(<?php echo base_url('assets/images/img_bg_4.jpg')?>);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-					<iframe src="<?php echo base_url('assets/audio/audio.mpeg')?>" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
-					<audio id="playAudio" autoplay loop>
-						<source src="<?php echo base_url('assets/audio/audio.mpeg')?>">
-					</audio>
-				</div>
-			</div>
-
-		</div>
-	</footer>
 	</div>
 
 	<div class="gototop js-top">
@@ -318,6 +191,13 @@
         day: 31,
         enableUtc: false
     });
+	document.addEventListener("DOMContentLoaded", function(event) {
+  	var match = navigator.userAgent.match(/Chrome\/(\d+)/);
+  	if (match && parseInt(match[1]) >= 55) {
+    	document.getElementById('mask');
+  	}
+	});
+</script>
 </script>
 
 	</body>
