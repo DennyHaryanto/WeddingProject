@@ -145,7 +145,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p>Terpisahkan oleh jarak, didekatkan oleh Tuhan melalui tangan teman terbaik. Dua pribadi yang memiliki masa lalu sebagai pembelajaran untuk selalu memperbaiki diri, jatuh cinta, bersama, dan berharap selamanya.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -156,10 +156,10 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
+									<span class="date">August 25, 2018</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Setelah 3 bulan perkenalan</p>
 								</div>
 							</div>
 						</li>
@@ -168,10 +168,10 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
+									<span class="date">December 28, 2018</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Menghadiri acara pernikahan teman dengan segala kecanggungan</p>
 								</div>
 							</div>
 						</li>
@@ -180,14 +180,60 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
+									<span class="date">February 1, 2019</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Masih LDR, berjuang untuk mengembangkan diri pada bidangnya masing masing dengan selalu menyempatkan untuk berkomunikasi</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(<?php echo base_url('assets/images/engagement.jpeg')?>);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">In Engagement</h3>
+									<span class="date">January 1, 2020</span>
+								</div>
+								<div class="timeline-body">
+									<p>Untuk tetap saling dalam segalanya</p>
 								</div>
 							</div>
 						</li>
 			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-testimonial" style="padding-top: 2em;">
+		<div class="container">
+			<div class="row">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<span>Best Wishes</span>
+						<h2>Friends Wishes</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="wrap-testimony">
+							<div class="owl-carousel-fullwidth">
+							<?php foreach($data as $row) {?>
+								<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="<?php echo base_url('assets//images/couple-1.jpg')?>" alt="user">
+									</figure>
+									<span><?php echo $row->nama?>, via <a href="#" class="twitter">Website</a></span>
+									<blockquote>
+										<p><?php echo $row->prays?></p>
+									</blockquote>
+								</div>
+								</div>
+							<?php }?>	
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -199,25 +245,24 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Wanna Send ur Best Prays For Us?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
 				</div>
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
+					<form class="form-inline" action="<?php echo base_url(). 'Story/tambah_aksi'; ?>" method="post">
+						<div class="col-md-4 col-sm-4" style="text-align:center;">
 							<div class="form-group">
 								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
+								<input type="text" class="form-control" name="Nama" placeholder="Name">
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-4 col-sm-4" style="text-align:center;">
 							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="name" class="form-control" id="email" placeholder="Email">
+								<label for="Prays" class="sr-only">Prays</label>
+								<input type="text" class="form-control" name="Prays" placeholder="Ur Prays">
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-4 col-sm-4" style="text-align:center;">
 							<button type="submit" class="btn btn-default btn-block">Submit</button>
 						</div>
 					</form>
