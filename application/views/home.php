@@ -98,7 +98,7 @@
 							<h1>Mega Maya</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<!--<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>-->
 						</div>
 					</div>
 				</div>
@@ -135,7 +135,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2><a href="<?php echo base_url('Story');?>">Wanna See Our Stories?</a></h2>
+					<h2><a href="<?php echo base_url('Story');?>">Click Here to See Our Stories?</a></h2>
 					<div class="player">
 						<audio src="<?php echo base_url('assets/audio/audio.mpeg')?>" autoplay loop controls></audio>
 						<div class="mask"></div>
@@ -191,9 +191,9 @@
         enableUtc: false
     });
 	document.addEventListener("DOMContentLoaded", function(event) {
-  	var match = navigator.userAgent.match(/Chrome\/(\d+)/);
-  	if (match && parseInt(match[1]) >= 55) {
-    	document.getElementById('mask');
+		var match = navigator.userAgent.match(/Chrome\/(\d+)/);
+		if (match && parseInt(match[1]) >= 55) {
+			document.getElementById('mask');
   	}
 	});
 </script>

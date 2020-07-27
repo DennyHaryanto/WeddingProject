@@ -99,7 +99,7 @@
 							<h1>Mega Maya</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<!--<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>-->
 						</div>
 					</div>
 				</div>
@@ -271,7 +271,7 @@
 		</div>
 	</div>
 
-	<footer id="fh5co-footer" role="contentinfo" style="padding-top: 2em;">
+	<footer id="fh5co-footer" role="contentinfo" style="padding: 2em;">
 		<div class="container">
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
