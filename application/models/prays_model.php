@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class prays_model extends CI_Model
+class Prays_model extends CI_Model
 {
     public function __construct() { 
         parent::__construct();

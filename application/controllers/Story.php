@@ -10,7 +10,7 @@ class Story extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->model('prays_model');
+		$this->load->model('Prays_model');
 
 		$result['data']=$this->prays_model->getTopPrays();
 		$this->load->view('story', $result);
@@ -18,8 +18,8 @@ class Story extends CI_Controller {
 
 	
 	function tambah_aksi(){
-		$this->load->model('prays_model');
-		
+		$this->load->model('Prays_model');
+
 		$nama = $this->input->post('Nama');
 		$prays = $this->input->post('Prays');
  
