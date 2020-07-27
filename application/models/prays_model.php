@@ -2,7 +2,9 @@
 
 class prays_model extends CI_Model
 {
-    public function __construct() { parent::__construct(); }
+    public function __construct() { 
+        parent::__construct();
+    }
     private $_table = "prays";
 
     public function getTopPrays(){
