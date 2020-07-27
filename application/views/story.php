@@ -97,9 +97,9 @@
 							<h1>Denny Haryanto </h1>
 							<h1>&amp;</h1>
 							<h1>Mega Maya</h1>
-							<h2>We Are Getting Married</h2>
+							<!--<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<!--<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>-->
+							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>-->
 						</div>
 					</div>
 				</div>
@@ -271,13 +271,13 @@
 		</div>
 	</div>
 
-	<footer id="fh5co-footer" role="contentinfo" style="padding: 2em;">
+	<footer id="fh5co-footer" role="contentinfo" style="padding: 0em;">
 		<div class="container">
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2020. All Rights Reserved.</small> 
+						<small class="block">Designed by <a href="https://www.linkedin.com/in/denny-haryanto/" target="_blank">Denny Haryanto</a>
 					</p>
 					<div class="player">
 						<audio src="<?php echo base_url('assets/audio/audio.mpeg')?>" autoplay loop controls></audio>

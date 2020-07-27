@@ -136,6 +136,19 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2><a href="<?php echo base_url('Story');?>">Click Here to See Our Stories?</a></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo" style="padding: 0em; background: rgba(0, 0, 0, 0.04)">
+		<div class="container">
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2020. All Rights Reserved.</small> 
+						<small class="block">Designed by <a href="https://www.linkedin.com/in/denny-haryanto/" target="_blank">Denny Haryanto</a>
+					</p>
 					<div class="player">
 						<audio src="<?php echo base_url('assets/audio/audio.mpeg')?>" autoplay loop controls></audio>
 						<div class="mask"></div>
@@ -143,7 +156,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</footer>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>

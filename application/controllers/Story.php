@@ -6,20 +6,17 @@ class Story extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->helper('url');
+		$this->load->model('Prays_model');
 	}
 	
 	public function index()
 	{
-		$this->load->model('Prays_model');
-
-		$result['data']=$this->prays_model->getTopPrays();
+		$result['data']=$this->Prays_model->getTopPrays();
 		$this->load->view('story', $result);
 	}
 
 	
 	function tambah_aksi(){
-		$this->load->model('Prays_model');
-
 		$nama = $this->input->post('Nama');
 		$prays = $this->input->post('Prays');
  
@@ -28,7 +25,7 @@ class Story extends CI_Controller {
 			'prays' => $prays,
 			'inputdate' => date('Y-m-d H:i:s')
 			);
-		$this->prays_model->input_data($data);
+		$this->Prays_model->input_data($data);
 		redirect('story');
 	}
 }
