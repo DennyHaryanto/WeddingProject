@@ -5,7 +5,7 @@ class Prays_model extends CI_Model
     public function __construct() { 
         parent::__construct();
     }
-    private $_table = "prays";
+    private $_table = "Prays";
 
     public function getTopPrays(){
         $query=$this->db->query("select * from prays order by inputdate desc LIMIT 3");
