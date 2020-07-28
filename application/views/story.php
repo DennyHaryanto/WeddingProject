@@ -123,7 +123,7 @@
 					</div>
 					<div class="desc-groom">
 						<h3>Denny Haryanto</h3>
-						<p>Anaknya Alm Alfian dan Juharsiah</p>
+						<p>Anak Kedua dari Alm. Alfian dan Juharsiah</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -133,7 +133,7 @@
 					</div>
 					<div class="desc-bride">
 						<h3>Mega Maya</h3>
-						<p>Anaknya Alm H. Sutadji S.H dan Hj. Wiwin Andayani</p>
+						<p>Anak Ketigas dari Alm H. Sutadji S.H dan Hj. Wiwin Andayani</p>
 					</div>
 				</div>
 			</div>
